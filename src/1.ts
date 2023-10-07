@@ -17,7 +17,7 @@
 // }
 
 class Student {
-  constructor(name: string, age: string, grade: string) {}
+  constructor(public name: string, public age: string, public grade: string) {}
 }
 
 export {};

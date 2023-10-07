@@ -26,7 +26,7 @@ class Employee {
     this.salary = salary;
   }
 
-  public getEmployeeDetails() {
+  public getEmployeeDetails(): string {
     return `Name: ${this.name}, Department: ${this.department}, Salary: ${this.salary}`;
   }
 }
